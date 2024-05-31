@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SidePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 110</value>
+  </data>
+  <data name="SidePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 72</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SidePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;SidePanel.Name" xml:space="preserve">
+    <value>SidePanel</value>
+  </data>
+  <data name="&gt;&gt;SidePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SidePanel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;SidePanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KhuyenMaiButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="KhuyenMaiButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="KhuyenMaiButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAA4dJREFUWEft
+        V12ITVEUHuV/4omUREKUB1L+SkKK/JUi8lcKT3gRisLEg5QXjTHjv/GX+2L22TOXO/ecs7tjmjCDeKC8
+        +Hnw5G+IGe6M61vnfOfey8xhpnsMD/PV6py71tprfWfvtdfet6gXvfhfkEgkim1bzXcctdV1rRLXVcfw
+        rAjEGL2Grn8HmUymjzFqrevqJBKmIZlw0WUcFj3q69UQJFC/JE07jvUEzxrIdUiF4+jHtJ3l0GhhjOmL
+        4DeZpB1LctmYqoVa68F0yQLkzvh+qpSqaIGlOUUibUiygupOgZm5Jr4gdZSq6AAiu0gEondSHQpjrLj4
+        4rmfqmjgutWLEBjL4pE5SbV8/UrsokPG1EylKgvWkBDfRFXhcJyaMQj6hoGTUjeix+99vs7Tf7Nta7o3
+        AGhoiA0SndgwM7OoLgxIPBABG5n0JXrGMJqETBP1nmAmjtCEcXoe9S3xeHwA1YUBRXqaQVvzv1yAL79I
+        myf5zQ3ELvh6XU1VYUA9bA4SSXelOou6uvhwJL2EhHekbqQRih7LsgxjvPoCwVWecyFAgikI9sUno89R
+        /UeA1HaM8ToySFkBwS5DOiq+4CAC3IagDtRDyCcJiC9/IHVD11D4zVCVyhhf1C3UylCauwYccCMw+Gku
+        yE/SjN4ynq6hkOWCr503rjzYcV2GVDmmsoEB3uFr9mAmzgdBMeWr6RoK162aCd9XHNMujZGm7kFqgUFa
+        UawzsFRz8M4TWB2nW6fwT21rb85fvwb5uTR3D5iBHX4QLxCuAXoJ5AV1jb/rDXIowqcyGA9S95JJPZrm
+        7gFEFiBIyB1Ef0ilrLF07QDM2MS8q4H4lxXc1Gpr1UgEXS79AeRwB/FbNyQd1hukqcH+kX6fMW4jTdEi
+        kagsxmEYXJjaUIgbaOqwLCDxNpXSE2iOFkh8GNO/NBaL9ZdGlSOk1+M5Gcl5+gZk1CMOjRayA5BAWjd2
+        1I1xnAWHib9C3vO9BcvqnVMg94zDowUCaybQ/nbVk0jIkAREPQeRadzKorvL4dGB3ZcXJr0bUi2FLM1O
+        Kbl0Kx52arFt69l4b/Z9rQMMER24O/j1WRECJb49e4+RVt8q71I/8j/JCxAlELycyUS+QxL5XRQzEly+
+        A7lvTHwUzdECwa9CTmBp1nXWQTFzW/KIXJGrJE09D5CUO43sqG1U/Ts0NVX0kz9o/NmLHkBR0Q8UhsRD
+        EoJ4VgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="KhuyenMaiButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="KhuyenMaiButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KhuyenMaiButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 500</value>
+  </data>
+  <data name="KhuyenMaiButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="KhuyenMaiButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="KhuyenMaiButton.Text" xml:space="preserve">
+    <value>      Khuyen Mai</value>
+  </data>
+  <data name="KhuyenMaiButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="KhuyenMaiButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;KhuyenMaiButton.Name" xml:space="preserve">
+    <value>KhuyenMaiButton</value>
+  </data>
+  <data name="&gt;&gt;KhuyenMaiButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KhuyenMaiButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;KhuyenMaiButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SanPhamButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="SanPhamButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="SanPhamButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAlpJREFUWEft
+        VE1r1FAUHT9w40LBL9RfoH/B6sbiwpWCX+DClf0LbmfpyqpUioh2WQh0Ou+liJkmeXYWUvwHim4sUkHa
+        uumiljqek3fDPExmRuFl4ZADl5dzct+9J8l9adSoMXaI4/b5JNEPq4qVlaVz0mo0jNHTaap7FcYjaTUc
+        zWZzf5qqNbtJvcH63F9k9WjmS6/X2yctByOOly7aDeHPOG4dE9kLWA+1d1nfmHBC5MFA4lNrRkcieQVG
+        oCP1n4hUjiAIDiBpnclJou6L7BWoPSVm1jkSIhcBA5ckcRev8bjIXsG6rM8+HAmRi0iS8DGTsCEVqRKg
+        h7F99LRIReAfMMckrC/Icf0M8QvDvB1F0WGYPQu+gdiE4Rs8EcaoFjliwdZQN4VvdLsLp7kP19sI1pmx
+        dcOX4PwCr8hLgcJ3JAmhPmDd63P9DcEmOd9BfHY4g5x6zpnPfTlHvaxuxvFAd6V1OZD0Nk+2G/Q7PMmP
+        vqbWoL13+B7e5HdoePJcC1exfu1zvSVazhlm5L8m/1T2CKoL1OJYncJT3EZcW14OjhhjDhrTnsSbvIeY
+        t/lqnhxNL/NUGrN4FJ/1Ou7diqLWSftJwwlbNxuFuazhMDhmBg+XAxiYFTOzIg0F6463Gb76bvf1CdcM
+        OXVJKYV3M52OOoOcLc6Qa4Yc15s80pJagHczGMwrNqfUDK7bk5JagHczOC2HkNPGybnqmiHH/kXel9QC
+        vJtx4ZoRaShqM4Pw/5vB+hGnIxgVGNpPzOdadv/PYN1/NlN1/JUZe1z1g6qDfaRljRrjgEbjN2JOqDuT
+        pNcTAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="SanPhamButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SanPhamButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SanPhamButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 422</value>
+  </data>
+  <data name="SanPhamButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="SanPhamButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="SanPhamButton.Text" xml:space="preserve">
+    <value>      San Pham</value>
+  </data>
+  <data name="SanPhamButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="SanPhamButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;SanPhamButton.Name" xml:space="preserve">
+    <value>SanPhamButton</value>
+  </data>
+  <data name="&gt;&gt;SanPhamButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SanPhamButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;SanPhamButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="KhachHangButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="KhachHangButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="KhachHangButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAwRJREFUWEft
+        VTtrFFEYjRrx8QdU0MZKa/EtCjapjA+sxEoQBEXxAYYIsoqPFBaSoBgbo6LC+srsbBZXZ+ayERORtbDz
+        UYlYWIgWSoq4u55z54w7M9lEUAwWc+Bj9jvf+b5773cf25YhQ4YM/zsqleLyICiu4FfU9MMYd1sQFN7B
+        GpH5fuFtEDidkkwPMOgxDF6PTyRmdWOco5L+W3ieu5YDcmBM6qYxpcXkK5XBJb7v3tGEavi9yib8KRqN
+        xgzfd/ZiZcMo+Ak2yi4YY9olQVecuxqwTL1oi1wuNxO8xzgnJhpbatqNKRwPAvc5YqxbwXbuSecnAMF1
+        Fmphfj6fnxVqCh9Dztlhk1LAWdqp+Af6zAMXqE7K3AGblAaLS1SD6BxuSAdW1wV/jDy6dSjUFb5It8km
+        poBOblb8M33UOiJ/LKxX7ECXzsPHOJbfahPjAHkjDCZnC/+0kgx9FHpBH9uVs4IUMJkz0o/SxxdbMlEP
+        zo4H/TVRTSDwVEkHRFmgY53kYe/p86bI/4bYeisSkLsR/HfFD5PjdtFHV7ZYkYBFHpSuIqoJkFcULIuy
+        QLGr4ofol0qlOfj9UlwNk3uA1fXAHtIX/wqHdq7yH4nrpx8BHX4s/pKoJoJgcDUCPyQow7pjN4cr2y4p
+        D+n+iG9l0O6TNHagee7cPL7dMNYnN+55hZWSJoHWPZEoZc6barV/tq5ubyw2jpxnYR6/9MMYJnSRV5d5
+        6Bpe5l85cfNaXm8EzjZF7ld8qzC+CZZjl2KHk5oBY4YWKt2CPmK6CNZOwe7FfNZDXVvfcpj0BaWH8P3B
+        dQhEz3vvyEh+Hnk+VvDZ1sTTj/0+YRMnATQn43pYHYN2RY+n67rzsWV9UQy/N9hEAsRtBrByV1QCWMll
+        JXLfA9GTgq2H1l5p5fQplABiQ9LcEmXfBu2pu0tUApy5kmgTH6kW4IGPctDJNaITwE3cLc1rUb8HJrMs
+        Kux5zgLRU2J4+P6iKIf5ov8evBGeV1xKm/LPLQbqohzmi86QIUOGDCHa2n4CW+6EsQYD69sAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="KhachHangButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="KhachHangButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KhachHangButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 578</value>
+  </data>
+  <data name="KhachHangButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="KhachHangButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="KhachHangButton.Text" xml:space="preserve">
+    <value>      Khach Hang</value>
+  </data>
+  <data name="KhachHangButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="KhachHangButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;KhachHangButton.Name" xml:space="preserve">
+    <value>KhachHangButton</value>
+  </data>
+  <data name="&gt;&gt;KhachHangButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KhachHangButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;KhachHangButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NhanVienButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="NhanVienButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="NhanVienButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAA41JREFUWEft
+        V8lqFFEUjRO6FxxAN07gzgFnMeAHqIgL3YhkJyoquhIJTXQRcIwKGo1EEBxaTbrqJY1taqCiIpgWzFZX
+        Ii4lLnSTqT233qlOKjV0Z5AEyYFLd5177n3Tfe9V1cziv0V396vljmPUOY5qcByzxXVV1rbNB/rZqBM/
+        pf8GmUxmruuax9B4D2wYVkox8feIXuKYYmqAxLWwXjYU2DfYc8zEHcxKo/zqZ58frfts28Yeppoc0NAZ
+        JBzUiVU/fpttW20tlUpzKAlBePGjc/eplw4NuK5xmpKJAUluMRnMeG3b7avpqgrowBrEFkZymE10jQ+Y
+        kVNBEqz9lWw2O4+uEDyvY73jdGyWX1IhSBxm6upILnWCruqAgN0IHGCC66RDgOYAfF+p8Q0D+IIZ3EdJ
+        CBjQDa1T/bad20k6HbLmCCoysCtuRtDoefiTdtQwluccpWW4rjsfPks06NjHpJoLAQ0d0UlVv+eptaTL
+        sCy1QxoUDbSPXTe/QnjPy63EcjzVseaQFLEfMAqW1bkOPn/G0eHDpJMB4TuK75IKAdv0hfhhhbGjkzMF
+        vD966RjpEOC7x/i3pOKhT1ZziMk2kQ4Bvh86mXGQVAiopUP0fycVgucZG7XfHHLdzmWko+AJ6ydKWlP4
+        +5isllQIWLq99P8kFQJrkgejOko6CiS6LCJZClIRSPFRkyEVQpAD9oFUBMFSoxQukYoCiVp1Q+omqQhk
+        p7Cx35jBXaR9yLEP/g/9Z0lHIPm1Rj0kFQWcBhPVk4ogn88vhP8TdVh3ow2DaIS1yzP5XmzlRQyJAP56
+        6nKkopCeUpR6bGMGTlIXa/AfpzQWKPLb1LaQiqJSzejXiHIiMZwZ6j2sS/+WT22xpqTXB/heiia1Zirt
+        plHFiQ6brWO3pmUZS9GpR4EG/xvoKoO7icdDym6yrLbFEHF0uW2kffB8CGriAulYoEAvUjeIDm8g7QMD
+        3k7fgLRHOh4QxZ7A4J5pXjmkUgGtK3rYE1I+8FzdCSzA9EfuJn3Mq19Mst8XVgBvddH3BUs+7ruJa+rf
+        2pjSN3Jr61rwE5fkP6Wp4NXixxQKbUsmdGsL5DBDEGvHuFYsNi+wrI5VYtUmEV0QI/HowPjfZwJguap6
+        06uESb/pBUDwzHgHDoAZinwdWJa5JWm5hMdMTP3XQQAkmxnfTQH0VVD9F6XsGNEnXQlThmn/1p7F9KGm
+        5i8bxqqwJIO7KQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="NhanVienButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="NhanVienButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NhanVienButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 344</value>
+  </data>
+  <data name="NhanVienButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="NhanVienButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="NhanVienButton.Text" xml:space="preserve">
+    <value>      Nhan Vien</value>
+  </data>
+  <data name="NhanVienButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="NhanVienButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;NhanVienButton.Name" xml:space="preserve">
+    <value>NhanVienButton</value>
+  </data>
+  <data name="&gt;&gt;NhanVienButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NhanVienButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NhanVienButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ChiNhanhButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ChiNhanhButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="ChiNhanhButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAZhJREFUWEft
+        lz9PwlAUxeufz+CqfgYd+AQmmriwiA6MDE5urnVyYnAiTi5OHTRtdWB474WJ4EoMkzObKyaG1HvsaVJN
+        m0JoCZr3S07ovdx3z+XxSopjsSwbpcIDrf17vDK1fLQOj7QO+qIopb5SwSFLqiWKojXZgWNjgpfUAFPG
+        0ySHGHWo59LyMMZsyk40xeg1MRR9im6NedxBTa8X7CJmPqmR+rDped7Gd6NFiIcIWqK3lMGH6Eap522W
+        /QDD4X3WJWuwvoV+LJsd13XXjfEb0mCYaggN5Uycav20V6zwLGu9MeEJ+tOqGFl09atJqVLKd2lVjBzA
+        66wmZQn9afVHkR+zunySd9GAKXyFY+TkTO3Hsd+Oa/w2YuS5ZowYyPWANXWm5oeHGFs7YgqNJ8jJVtcQ
+        S00njv1OHAc1rpkgBnI9Yk2Dqfmxw+Rhh8nDDpOHHSaPlRlGHhUu2LRUoS8tZmelhul2H7ayH5oWE/rS
+        ohiZ/lyexryqBR9a5iPbeJfe1qoEH1rmg/9DckdcVi340NJi+Q84zhfIKwmFhQstUQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="ChiNhanhButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ChiNhanhButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChiNhanhButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 266</value>
+  </data>
+  <data name="ChiNhanhButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="ChiNhanhButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ChiNhanhButton.Text" xml:space="preserve">
+    <value>      Chi Nhanh</value>
+  </data>
+  <data name="ChiNhanhButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ChiNhanhButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;ChiNhanhButton.Name" xml:space="preserve">
+    <value>ChiNhanhButton</value>
+  </data>
+  <data name="&gt;&gt;ChiNhanhButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChiNhanhButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ChiNhanhButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DatHangButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DatHangButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="DatHangButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAo9JREFUWEft
+        l8lu01AYhcOwYYfEBtYMeyoxCBC8BmwQ6hYh+gRVBCyQmMogUaCINQba2FYlBl9fpaAuKAtY8AAI9SUa
+        Sjgn9zhN69i1SWgs1E+6snLu+X//uZPt2jb/LQsLbw7EsT8ex+G1OA5mrA09Y4Jn7rc/zn5Z/w31en2n
+        tcEl3HwJ7TdaO6exf4l+xinFcEDic2jfdKOk/UB7iZF4hFG5yav73dF7fV+N8c8q1WDgRhNI+MslDldw
+        fWJMeLzdbu+QZR3U2Y/insrPglrW+ldl+TuQ5IGSoflvjZk7qK5CoIBDiH23liO4r65yYESuJEkw97c8
+        z9ulrlIwDiN1ey1XeFldxUDAGQS2lOCu5IHAH7rn8oUrxjROSc6Hc46gLwr8sNmILC56e6yd28urpL5Y
+        a3cjZ8S8KOxz1ppbB6bnQvIPms3wsORM4J12/mBaUiZRNH8Evs6IYz2dl5wNjJ9kfiwpFxZBP6+Scunx
+        f5TUH3eyBqs0Y9GNSc6lJ3mhYppN/6j8q9bO75ecRicsjP7PQnMKWISSFypGa1IHY3hRchqslxs04cR8
+        JWlTWIRLXKwYwvyMwVK4LikNinnhigmnJHXhbtGNN7bvaCyG11R/v13G/OjjyDyXlAadvjMFk5K6cPuq
+        r1RjnFJ0gT6p/oakNKxUptSxPcyRwaH6EH2MmZGUZqvWDLyvGZO7ZrZwNy27mJzdFEWz+2DSM6lxQnIu
+        LML5ixWDP3xS/hbvJ7k/MFXjBCaVejZpTjtPbQzp+5E+tQkW8GkEae34dyQPBAoo/z6TgOmqxpteAoKr
+        8Q6cgBFKfR1EUXAsa86pYySG/3WQgGTV+G5KKPtFyR1D/9C/KDcy8m/tbUZHrfYHrf333CEBAtAAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="DatHangButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="DatHangButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DatHangButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 188</value>
+  </data>
+  <data name="DatHangButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="DatHangButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DatHangButton.Text" xml:space="preserve">
+    <value>      Dat Hang</value>
+  </data>
+  <data name="DatHangButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="DatHangButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;DatHangButton.Name" xml:space="preserve">
+    <value>DatHangButton</value>
+  </data>
+  <data name="&gt;&gt;DatHangButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatHangButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;DatHangButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TrangChuButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="TrangChuButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 11pt</value>
+  </data>
+  <data name="TrangChuButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAa5JREFUWEft
+        lb9OwkAcx9lMjA4O+g5u6qSjPoGL78EjOLLpIzgaB+L1oAlJ20uBxdRFNzaiIwuSMLiovy/8LtoL15aW
+        gkM/yS/l7vfnPqVJW6soE9d1t/jnZvF95yIInJHniXPe2gyeJ89I5IPiG1elnFNOrRdD5GtjQngkdPCU
+        BV7CsHXo+/KV19O1PTJTpNt197GP61qFbCIarLHP+fKEDJHnXq+1x6kYpQtlFdGUJrSsiGblQnlFNKhH
+        H/fnFyoqoiksZIhEeUU0uYVQSN+bTzTS2/StqIhmLiTeMRfzU4WMf4SaRJNTKwHz9GycYxUKQ3EcBHLM
+        hSO+3nM6Bt1ZnQZf28Opc2kMzJvPlTxfjpVqH3H6FynlNhV4FBE9npt58WIZ2h9y3hZDLo1B+zMZ+mzc
+        0jWi8HAup+P0+2K302ke0J010IRmTsWgfS3zRPH4J7DOIOM0cI5SDzucspNVRil5yVszsOa+VBneSqeS
+        sVHJ2KhkbPxTGTHA29IMyk2QT5CZLO4TA+Tz/jOJkSCTGEvKiCv6iN2lBd3tCbfMwHpRnRmYzy0VFQWo
+        1X4ATMblThdWkYgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="TrangChuButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="TrangChuButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TrangChuButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 110</value>
+  </data>
+  <data name="TrangChuButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 72</value>
+  </data>
+  <data name="TrangChuButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TrangChuButton.Text" xml:space="preserve">
+    <value>      Trang Chu</value>
+  </data>
+  <data name="TrangChuButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="TrangChuButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;TrangChuButton.Name" xml:space="preserve">
+    <value>TrangChuButton</value>
+  </data>
+  <data name="&gt;&gt;TrangChuButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrangChuButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TrangChuButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 746</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TopPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 0</value>
+  </data>
+  <data name="TopPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1260, 16</value>
+  </data>
+  <data name="TopPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Name" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 12</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 30</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>QUAN LY CUA HANG CA PHE</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 16</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1260, 53</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="sqlCeCommandBuilder1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="khuyenMaiControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="khuyenMaiControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="khuyenMaiControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;khuyenMaiControl1.Name" xml:space="preserve">
+    <value>khuyenMaiControl1</value>
+  </data>
+  <data name="&gt;&gt;khuyenMaiControl1.Type" xml:space="preserve">
+    <value>btll.KhuyenMaiControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;khuyenMaiControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;khuyenMaiControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="khachHangControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="khachHangControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="khachHangControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;khachHangControl1.Name" xml:space="preserve">
+    <value>khachHangControl1</value>
+  </data>
+  <data name="&gt;&gt;khachHangControl1.Type" xml:space="preserve">
+    <value>btll.Menu.KhachHangControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;khachHangControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;khachHangControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="sanPhamControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="sanPhamControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="sanPhamControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;sanPhamControl1.Name" xml:space="preserve">
+    <value>sanPhamControl1</value>
+  </data>
+  <data name="&gt;&gt;sanPhamControl1.Type" xml:space="preserve">
+    <value>btll.SanPhamControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sanPhamControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sanPhamControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chiNhanh_DanhsachControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="chiNhanh_DanhsachControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="chiNhanh_DanhsachControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chiNhanh_DanhsachControl1.Name" xml:space="preserve">
+    <value>chiNhanh_DanhsachControl1</value>
+  </data>
+  <data name="&gt;&gt;chiNhanh_DanhsachControl1.Type" xml:space="preserve">
+    <value>btll.ChiNhanh_DanhsachControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chiNhanh_DanhsachControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chiNhanh_DanhsachControl1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chiNhanhControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="chiNhanhControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="chiNhanhControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chiNhanhControl1.Name" xml:space="preserve">
+    <value>chiNhanhControl1</value>
+  </data>
+  <data name="&gt;&gt;chiNhanhControl1.Type" xml:space="preserve">
+    <value>btll.ChiNhanhControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chiNhanhControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chiNhanhControl1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="datHangControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="datHangControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="datHangControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;datHangControl1.Name" xml:space="preserve">
+    <value>datHangControl1</value>
+  </data>
+  <data name="&gt;&gt;datHangControl1.Type" xml:space="preserve">
+    <value>btll.DatHangControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;datHangControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;datHangControl1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="trangChuControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="trangChuControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="trangChuControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;trangChuControl1.Name" xml:space="preserve">
+    <value>trangChuControl1</value>
+  </data>
+  <data name="&gt;&gt;trangChuControl1.Type" xml:space="preserve">
+    <value>btll.TrangChuControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;trangChuControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;trangChuControl1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nhanVienControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="nhanVienControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 649</value>
+  </data>
+  <data name="nhanVienControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;nhanVienControl1.Name" xml:space="preserve">
+    <value>nhanVienControl1</value>
+  </data>
+  <data name="&gt;&gt;nhanVienControl1.Type" xml:space="preserve">
+    <value>btll.NhanVienControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;nhanVienControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nhanVienControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cN_HDControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 85</value>
+  </data>
+  <data name="cN_HDControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1149, 624</value>
+  </data>
+  <data name="cN_HDControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cN_HDControl1.Name" xml:space="preserve">
+    <value>cN_HDControl1</value>
+  </data>
+  <data name="&gt;&gt;cN_HDControl1.Type" xml:space="preserve">
+    <value>btll.Menu.Chi_nhánh.CN_HDControl, btll, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cN_HDControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cN_HDControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1578, 746</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;sqlCeCommandBuilder1.Name" xml:space="preserve">
+    <value>sqlCeCommandBuilder1</value>
+  </data>
+  <data name="&gt;&gt;sqlCeCommandBuilder1.Type" xml:space="preserve">
+    <value>System.Data.SqlServerCe.SqlCeCommandBuilder, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Mainform</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

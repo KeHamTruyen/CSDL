@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BTLSQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-TH1P604\PIHUSERVER:DESKTOP-TH1P604\GMT">
+          <Created>2024-04-09T14:07:05.9607954+07:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-TH1P604\PIHUSERVER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1 CR DB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1 CR DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10 CALAMVIEC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10 CALAMVIEC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11 NL_CN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11 NL_CN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12 NGUYENLIEU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12 NGUYENLIEU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2 CHINHANH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2 CHINHANH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.1 INSERT CN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.1 INSERT CN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3 NHANVIEN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3 NHANVIEN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3.1 INSERT NV.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3.1 INSERT NV.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4 DOANHTHU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4 DOANHTHU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5 SDT NV.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5 SDT NV.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6 QUANLY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6 QUANLY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7 PHUCVU.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7 PHUCVU.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8 PVFULLTIME.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8 PVFULLTIME.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9 PVPARTTIME.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TH1P604\PIHUSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-TH1P604\PIHUSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9 PVPARTTIME.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

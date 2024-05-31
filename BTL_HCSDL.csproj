@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{937EDC9B-C15D-409C-ABC6-90544BB3A0F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>btll</RootNamespace>
+    <AssemblyName>btll</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\DatabaseConnection.cs" />
+    <Compile Include="Menu\Chi nhánh\CN_HDControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\CN_HDControl.Designer.cs">
+      <DependentUpon>CN_HDControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\KhuyenMaiControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\KhuyenMaiControl.Designer.cs">
+      <DependentUpon>KhuyenMaiControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ChiNhanh_DanhsachControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ChiNhanh_DanhsachControl.Designer.cs">
+      <DependentUpon>ChiNhanh_DanhsachControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ChiNhanhControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ChiNhanhControl.Designer.cs">
+      <DependentUpon>ChiNhanhControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\SuaCNForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\SuaCNForm.Designer.cs">
+      <DependentUpon>SuaCNForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ThemCNForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Chi nhánh\ThemCNForm.Designer.cs">
+      <DependentUpon>ThemCNForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\DatHangControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\DatHangControl.Designer.cs">
+      <DependentUpon>DatHangControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\KhachHangControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\KhachHangControl.Designer.cs">
+      <DependentUpon>KhachHangControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\NhanVienControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\NhanVienControl.Designer.cs">
+      <DependentUpon>NhanVienControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\SuaNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\SuaNVForm.Designer.cs">
+      <DependentUpon>SuaNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\ThemNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\ThemNVForm.Designer.cs">
+      <DependentUpon>ThemNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\TinhLuongNVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Nhan Vien\TinhLuongNVForm.Designer.cs">
+      <DependentUpon>TinhLuongNVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Menu\TrangChuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\TrangChuControl.Designer.cs">
+      <DependentUpon>TrangChuControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\SqlHelper.cs" />
+    <Compile Include="Menu\SanPhamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\SanPhamControl.Designer.cs">
+      <DependentUpon>SanPhamControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Menu\Chi nhánh\CN_HDControl.resx">
+      <DependentUpon>CN_HDControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\KhuyenMaiControl.resx">
+      <DependentUpon>KhuyenMaiControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Chi nhánh\ChiNhanh_DanhsachControl.resx">
+      <DependentUpon>ChiNhanh_DanhsachControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Chi nhánh\ChiNhanhControl.resx">
+      <DependentUpon>ChiNhanhControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Chi nhánh\SuaCNForm.resx">
+      <DependentUpon>SuaCNForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Chi nhánh\ThemCNForm.resx">
+      <DependentUpon>ThemCNForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\DatHangControl.resx">
+      <DependentUpon>DatHangControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\KhachHangControl.resx">
+      <DependentUpon>KhachHangControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Nhan Vien\NhanVienControl.resx">
+      <DependentUpon>NhanVienControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Nhan Vien\SuaNVForm.resx">
+      <DependentUpon>SuaNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Nhan Vien\ThemNVForm.resx">
+      <DependentUpon>ThemNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Nhan Vien\TinhLuongNVForm.resx">
+      <DependentUpon>TinhLuongNVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Menu\TrangChuControl.resx">
+      <DependentUpon>TrangChuControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\SanPhamControl.resx">
+      <DependentUpon>SanPhamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Dont Care\packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dont Care\App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
